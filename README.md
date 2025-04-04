@@ -1,6 +1,6 @@
 # API CRUD con GitFlow
 
-Proyecto CRUD desarrollado con Node.js, Express y MongoDB, implementando la metodología GitFlow como parte de una práctica de control de versiones desarrollada por Yameli Martínez Taveras, de matrícula 2023-1390
+Proyecto CRUD desarrollado con Node.js, Express y MongoDB, implementando la metodología GitFlow como parte de una práctica de control de versiones desarrollada por Yameli Martínez Taveras, de matrícula 2023-1390.
 
 ## Tecnologías utilizadas
 
