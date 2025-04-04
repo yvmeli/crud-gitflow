@@ -24,12 +24,21 @@ router.get('/:id', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
+  if (!req.body.name) {
+    return res.status(400).json({ message: 'El nombre del producto es obligatorio' });
+  }
+  
+  if (!req.body.price || req.body.price < 0) {
+    return res.status(400).json({ message: 'El precio debe ser un número positivo' });
+  }
+  
   const product = new Product({
     name: req.body.name,
     price: req.body.price,
     description: req.body.description,
     category: req.body.category,
-    inStock: req.body.inStock
+    inStock: req.body.inStock,
+    imageUrl: req.body.imageUrl
   });
 
   try {
