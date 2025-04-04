@@ -23,7 +23,7 @@ Este proyecto implementa un API REST completo para gestionar productos con las s
 1. Clona este repositorio:
    ```
    git clone https://github.com/tu-usuario/crud-gitflow.git
-   cd crud-gitflow-practice
+   cd crud-gitflow
    ```
 
 2. Instala las dependencias:
